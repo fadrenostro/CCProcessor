@@ -19,8 +19,8 @@ function process_credit_card( $card_num, $exp_date, $card_ccv, $amount, $journal
                 $client = new SoapClient($wsdl);
 
                 /* Security token */
-                $sourcekey = '8gBy397AiqC3Cdmt6B3337X9159Wq4S6';
-                $pin = '2521291';
+                $sourcekey = 'GIVEN KEY';
+                $pin = 'OPTIONAL PIN';
 
                 /* Generate random seed value */
                 $seed = time() . rand();
